@@ -1,47 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 #bento{
-    border:10px solid darkgray;
-    width:864px;
-    height:460px;
+    border:6px solid darkgray;
+    /* width:864px;
+    height:460px; */
+    width:50em;
+    height:36em;
+
     margin: 0 auto;
+    padding:.5em;
 
     display:flex;
     flex-wrap:wrap;
+    flex-direction: column;
+
+    /* align-content: stretch; */
+    justify-content: space-between;
 }
 
 .box{
     background-color:royalblue;
-    border:1px dotted red;
     padding:1em;
+    border-radius: 5px;
+    margin:.25em;
+    /* display:flex;
+    align-items: flex-start; */
 }
 
 h1{
     color:white;
+    /* border:1px dotted white; */
+    margin:0;
 }
 
 .box1{
     background-color: palevioletred;
+    width:15em;
+    height:7em;
+    order: -3;
 }
 
 .box2{
     background-color: brown;
+    width:15em;
+    height:24em;
+    order: -2;
 }
 
-.box3{
+.box3{ /*Learn*/
     background-color: aquamarine;
+    width:13em;
+    height:10em;
+   
 }
 
-.box4{
+ .box4{  /*Build */
     background-color: blueviolet;
+    width:13em;
+    order: -1;
+    height:9em;
 }
 
-.box5{
+.box5{  /* Work */
     background-color: orange;
+    width:13em;
+    height:9em;
 }
 
 .box6{
     background-color: lightseagreen;
+    width:13.5em;
+    height:15em;
 }
 
 .box7{
-    background-color: goldenrod;
+    background-color: lightskyblue;
+    width:13.5em;
+    height:16em;
 }
