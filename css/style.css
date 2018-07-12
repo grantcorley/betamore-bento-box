@@ -1,3 +1,47 @@
-body{
-    background-color:gray;
+#bento{
+    border:10px solid darkgray;
+    width:864px;
+    height:460px;
+    margin: 0 auto;
+
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.box{
+    background-color:royalblue;
+    border:1px dotted red;
+    padding:1em;
+}
+
+h1{
+    color:white;
+}
+
+.box1{
+    background-color: palevioletred;
+}
+
+.box2{
+    background-color: brown;
+}
+
+.box3{
+    background-color: aquamarine;
+}
+
+.box4{
+    background-color: blueviolet;
+}
+
+.box5{
+    background-color: orange;
+}
+
+.box6{
+    background-color: lightseagreen;
+}
+
+.box7{
+    background-color: goldenrod;
 }
